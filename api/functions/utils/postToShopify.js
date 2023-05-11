@@ -12,7 +12,7 @@ exports.postToShopify = async ({ query, variables }) => {
     }).then((res) => res.json());
 
     if (result.errors) {
-      console.log({ errors: result.errors });
+      console.log({ errors: JSON.stringify(result.errors) });
     } else if (!result || !result.data) {
       console.log({ result });
       return "No results found.";
