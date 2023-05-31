@@ -8,7 +8,7 @@ export default function Home({ products }) {
   return (
     <>
       <Head>
-        <title>Boxing Bee</title>
+        <title>Box It Out</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
