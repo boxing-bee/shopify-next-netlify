@@ -12,7 +12,7 @@ export default function Footer() {
             <li>Box It Out Mission</li>
             <li>Instagram</li>
             <li>TikTok</li>
-            <li>Train with me!</li>
+            <li>Train with me</li>
           </ul>
           <ul>
             <li>Twitter</li>
