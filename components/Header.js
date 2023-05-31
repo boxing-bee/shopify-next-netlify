@@ -1,11 +1,11 @@
-import Link from 'next/link';
+import Link from "next/link";
 
 export default function Header() {
   return (
     <header className="app-header">
       <h1>
         <Link href="/">
-          <a>Shoperoni</a>
+          <a>Box It Out</a>
         </Link>
       </h1>
       <nav className="main-nav">
