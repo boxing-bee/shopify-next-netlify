@@ -24,7 +24,7 @@ body {
 h1,
 h2,
 h3 {
-  font-family: Domine, 'PT Serif', -apple-system, BlinkMacSystemFont, Segoe UI,
+  font-family: Domine, "PT Serif", -apple-system, BlinkMacSystemFont, Segoe UI,
     Roboto, Helvetica Neue, Arial, sans-serif;
   font-weight: 400;
 }
@@ -143,7 +143,7 @@ input {
 .testimonial {
   width: 100%;
   height: 280px;
-  background: url(/testimonial-bg.jpeg) 50% no-repeat;
+  background: url(/boxing_ring.jpg) 50% no-repeat;
   background-size: cover;
   display: flex;
   justify-content: center;
@@ -292,7 +292,7 @@ input {
   font-size: 1.2rem;
   margin: 5px 0;
   font-weight: 400;
-  font-family: Domine, 'PT Serif', -apple-system, BlinkMacSystemFont, Segoe UI,
+  font-family: Domine, "PT Serif", -apple-system, BlinkMacSystemFont, Segoe UI,
     Roboto, Helvetica Neue, Arial, sans-serif;
 }
 .product-page-price-list,

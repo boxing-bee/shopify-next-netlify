@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Banner from "@components/Banner";
 import ProductListing from "@components/ProductListing";
 import Header from "@components/Header";
 import Footer from "@components/Footer";
@@ -13,6 +14,7 @@ export default function Home({ products }) {
       </Head>
 
       <Header />
+
       <main>
         <ul className="product-grid">
           {products.map((p, index) => {

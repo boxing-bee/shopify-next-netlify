@@ -1,8 +1,10 @@
 import Link from "next/link";
+import Banner from "./Banner";
 
 export default function Header() {
   return (
     <header className="app-header">
+      <Banner />
       <h1>
         <Link href="/">
           <a>Box It Out</a>
