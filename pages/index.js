@@ -143,7 +143,7 @@ export default function Home({ products, posts }) {
 
 export async function getStaticProps() {
   const apiURL = "https://bbsapp-46x6nb-prod.valhalla-api.io/";
-  const apiURLContentful = "https://contentful-urkioc-prod.valhalla-api.io/";
+  //const apiURLContentful = "https://contentful-urkioc-prod.valhalla-api.io/";
 
   const ShopifyQuery = `
   query Shopify {
@@ -197,7 +197,7 @@ export async function getStaticProps() {
 
   const shopifyData = await response3.json();
   // Fetch Data from Contentful
-  const response1 = await fetch(apiURLContentful, {
+  const response1 = await fetch(apiURL, {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
