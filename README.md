@@ -18,3 +18,4 @@ netlify dev
 ```
 
 Open [http://localhost:8888](http://localhost:8888) with your browser to see the result.
+# shopify-next-netlify
